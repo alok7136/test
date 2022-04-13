@@ -1,0 +1,30 @@
+{
+  "name": "emailreadingserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webvillee/emailReadingServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webvillee/emailReadingServer/issues"
+  },
+  "homepage": "https://github.com/Webvillee/emailReadingServer#readme",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "imap": "^0.8.19",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15",
+    "winston": "^3.7.2"
+  }
+}
